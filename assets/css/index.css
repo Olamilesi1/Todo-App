@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  /* border: 1px solid red; */
+}
+
+#menu-bar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+#my-todo-logo-header{
+  width: 10%;
+}
+
+.menu-ids{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#resources{
+    border: none;
+}
+
+#start-btn{
+    border: 1px solid plum;
+    border-radius: 5px;
+    background-color: plum;
+    /* line-height: 2; */
+    padding: 10px;
+}
+
+#home-body{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* line-height: 3; */
+}
+
+#body-1text{
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+}
+
+#body-text2{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+footer{
+    width: 100%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: plum;
+  border-radius: 10px;
+}
+
+#first-footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 90%;
+margin: auto;
+/* border: 1px solid red; */
+padding: 50px;
+}
+
+#start-btn-footer{
+    border: 1px solid plum;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;  
+}
+
+#footer-text1{
+    font-size: 55px;
+    text-align: center;
+}
+
+#footer-text2{
+font-size: 25px;
+}
+
+hr{
+ /* height: 10px;
+ border-width: 1px; */
+ height:1px;
+ border-width:0;
+ color:black;
+ background-color:black;
+}
+
+#second-footers{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#footer-logo-text{
+width: 40%;
+/* border: 1px solid black; */
+}
+
+#my-todo-logo-footer{
+    width: 24%;
+    }
+
+#footer-text3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+#menu-bars-footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+   /* border: 1px solid pink; */
+}
+
+#resource-l{
+    list-style: none;
+}
+
+#features-l{
+    list-style: none;
+}
+
+
+#icons{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.list{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+#privacy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+#privacy-text{
+display: flex;
+gap: 50px;
+}
