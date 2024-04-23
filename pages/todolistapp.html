@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/81c5bbc941.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/todolistapp.css">
+</head>
+<body>
+
+    <main class="todo">
+        <span class="search">
+            <form class="searchfield">
+                <input type="search" class="userSearch" placeholder="search for tasks...">
+            </form>
+            <section class="taskcounter">
+                <p class="progress">Task in Progress: <span id="progressTask">0</span></p>
+                <p class="completed">Task Completed: <span id="completedTask">0</span></p>
+            </section>
+        </span>
+        <!-- <h5>Tasks</h5> -->
+        <span class="taskLists">
+            <ul class="listcontainer">
+    
+            </ul>
+        </span>
+        <!-- <span class="newTasks">
+            <div class="newTaskForm" data-bs-toggle="modal" data-bs-target=".innerTask">
+                <span class="addTaskBtn" >Add New Task</span>
+                <i class="fa-solid fa-plus" ></i>
+            </div>
+        </span> -->
+
+        <span class="newTasks">
+            <form class="newTaskForm">
+                <input type="text" class="addTask" placeholder="Add new task...">
+                <button type="submit" class="addTaskBtn" >Add New Task</button>
+            </form>
+        </span>
+    </main>
+
+    <form class="innerTask">
+        <h2>Add New Task</h2>
+        <hr> <br>
+        <p>Task Title</p>
+        <input type="text" class="textInput">
+        <span class="msg"></span>
+        <br><br>
+        <p>Date Created</p>
+        <input type="date" class="dateInput">
+        <br><br>
+        <p>Start Time</p>
+        <input type="time" class="timeInput">
+        <br><br>
+        <p>End Time</p>
+        <input type="time" class="timeInput">
+        <br><br>
+        <p>Description</p>
+        <textarea name="Des" class="textArea" cols="30" rows="5"></textarea>
+        <br><br>
+<span class="innerBtns">
+    <button class="inner-btns">Close</button>
+    <button class="inner-btns" id="done">Done</button>
+</span>
+</form>
+    <script src="assets/js/todolistapp.js"></script>
+</body>
+</html>
