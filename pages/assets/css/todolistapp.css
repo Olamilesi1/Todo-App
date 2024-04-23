@@ -15,13 +15,46 @@
     background-color: white;
   }
 
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* background-color: plum; */
+    border-radius: 5px;
+    /* border: 1px solid red; */
+  }
+  
+  #menu-bar {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+  }
+  
+  #my-todo-logo-header{
+    width: 10%;
+  }
+  
+  .menu-ids{
+      font-size: 20px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: 500;
+  }
+
   ul{list-style: none;}
 
   .todo{
     width: 50%;
     border: .2rem solid;
     border-radius: 1rem;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -61,7 +94,7 @@
   }
 
   .taskLists{
-border: .1rem solid red;
+/* border: .1rem solid red; */
 position: relative;
 overflow-y: scroll;
 height: 200px;
@@ -146,9 +179,8 @@ height: 200px;
   width: 40%;
   margin: 0px auto;
   padding: 0 1rem;
-  /* display: none; */
+  display: none;
 }
-
 
 .textInput, .dateInput, .timeInput{
   width: 100%;
@@ -173,4 +205,75 @@ height: 200px;
 
 .msg{
   color: red;
+}
+
+#second-footers{
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: plum;
+}
+
+#footer-logo-text{
+width: 40%;
+/* border: 1px solid black; */
+}
+
+#my-todo-logo-footer{
+  width: 24%;
+  }
+
+#footer-text3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+#menu-bars-footer{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+ /* border: 1px solid pink; */
+}
+
+#resource-l{
+  list-style: none;
+}
+
+#features-l{
+  list-style: none;
+}
+
+
+#icons{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.list{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+#privacy{
+  background-color: plum;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px;
+}
+
+#privacy-text{
+display: flex;
+gap: 50px;
+}
+
+#text-privacy{
+  text-align: center;
 }
